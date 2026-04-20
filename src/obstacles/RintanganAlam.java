@@ -9,7 +9,6 @@ public class RintanganAlam extends Rintangan {
         super(nama, deskripsi, itemSolusi, damage);
     }
 
-    // Opsional: Method Overriding (mengubah perilaku method induk)
     @Override
     public void tampilkanEncounter() {
         System.out.println("\n[MEDAN TERJAL] - Hati-hati langkahmu!");

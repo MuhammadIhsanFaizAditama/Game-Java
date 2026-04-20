@@ -39,15 +39,14 @@ public class LevelManager {
         return level2;
     }
 
-    // === BARU: TAMBAHAN CHAPTER 3 (PELARIAN) ===
     public static ArrayList<Rintangan> muatLevel3() {
         ArrayList<Rintangan> level3 = new ArrayList<>();
 
         level3.add(new RintanganAlam(
             "Batu Menggelinding Raksasa", 
             "Begitu kau mengangkat Patung Emas itu, tanah bergetar!\nSebuah batu bundar raksasa seukuran rumah menggelinding dari arah belakangmu!", 
-            "LARI", // Trik: "LARI" bukan ID item sungguhan, pemain harus mengetik LARI untuk selamat
-            80 // Sangat mematikan!
+            "LARI", 
+            80 
         ));
 
        level3.add(new JebakanLogika(

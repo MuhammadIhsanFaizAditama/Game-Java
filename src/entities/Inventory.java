@@ -1,10 +1,9 @@
 package entities;
 
-import items.Item; // Mengambil class Item dari folder sebelah
+import items.Item;
 import java.util.ArrayList;
 
 public class Inventory {
-    // ENCAPSULATION: Variabel private, tidak bisa di-list.add() sembarangan dari luar
     private ArrayList<Item> daftarItem;
     private int kapasitasMaksimal;
 

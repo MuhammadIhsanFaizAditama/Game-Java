@@ -4,7 +4,7 @@ public class Rintangan {
     // Penggunaan 'protected' agar bisa diakses oleh subclass (anak-anaknya)
     protected String nama;
     protected String deskripsi;
-    protected String itemSolusi; // ID Item yang dibutuhkan untuk lewat
+    protected String itemSolusi; 
     protected int damageJikaGagal;
 
     // Constructor

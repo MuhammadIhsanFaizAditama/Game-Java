@@ -112,7 +112,6 @@ public class GameEngine {
     }
 
     // Method bantuan untuk menangani rintangan yang membutuhkan item
-    // Method bantuan untuk menangani rintangan yang membutuhkan item
     private void selesaikanRintanganFisik(Rintangan r) {
         // Tampilkan isi tas pemain
         indiana.cekInventory();
@@ -124,7 +123,6 @@ public class GameEngine {
         
         String pilihan = input.nextLine();
 
-        // --- BAGIAN YANG KAMU TANYAKAN ADA DI SINI ---
         if (pilihan.equalsIgnoreCase("LARI")) {
             if (r.getItemSolusi().equalsIgnoreCase("LARI")) {
                  DisplayHandler.cetakSukses("Kamu berlari sekuat tenaga dan berhasil lolos!");
@@ -145,7 +143,6 @@ public class GameEngine {
             }
         } 
         else {
-            // Pemain mengetik ID item yang tidak ada di tas
             DisplayHandler.cetakBahaya("Kamu tidak memiliki item dengan ID tersebut di tasmu!");
             indiana.terimaDamage(r.getDamage());
         }

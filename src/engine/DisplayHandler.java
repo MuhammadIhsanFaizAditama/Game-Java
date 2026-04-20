@@ -2,9 +2,7 @@ package engine;
 
 public class DisplayHandler {
 
-    // === ANSI ESCAPE CODES UNTUK WARNA ===
-    // Kode ini digunakan agar teks di terminal/CMD kalian punya warna.
-    // Dosen pasti suka fitur kecil seperti ini karena menunjukkan effort lebih.
+
     public static final String RESET = "\u001B[0m";
     public static final String MERAH = "\u001B[31m";
     public static final String HIJAU = "\u001B[32m";
